@@ -9,7 +9,7 @@ name: IAM Corner
 description: This site is dedicated to Identity and Access Management
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars.githubusercontent.com/u/58342808?v=4
+avatar: https://pbs.twimg.com/profile_images/1603895218570514432/dONfhxpm_400x400.jpg
 
 #
 # Flags below are optional
@@ -23,12 +23,12 @@ footer-links:
   flickr:
   github: indranilokg/
   instagram:
-  linkedin:
+  linkedin: indranil-jha-7a84013
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: 
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
+  twitter: indraniljha
+  stackoverflow: users/21553427/indranil
+  youtube: channel/UCVlTdP0v4c_nrMbd9ardpnQ
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://iam.twisec.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
