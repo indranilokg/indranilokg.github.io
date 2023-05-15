@@ -3,9 +3,7 @@ layout: post
 title: Step-up Authentication with Okta Workforce Identity Cloud
 ---
 
-In the [article](https://developer.okta.com/blog/2023/03/08/step-up-auth) as highlighted in my previous [post](https://iam.twisec.com/Step-Up-Authentication-Part1/), I discussed about step-up authentication in general.
-
-In this article we will explore few ways [Okta Workforce Identity Cloud (WIC)](https://www.okta.com/workforce-identity/) can support step-up authentication in an application.
+In the [article](https://developer.okta.com/blog/2023/03/08/step-up-auth) as highlighted in my previous [post](https://iam.twisec.com/Step-Up-Authentication-Part1/), I discussed about step-up authentication in general. In this post we will explore few ways [Okta Workforce Identity Cloud (WIC)](https://www.okta.com/workforce-identity/) can support step-up authentication in an application.
 
 
 ## Modern Application using OpenID Connect (OIDC)
