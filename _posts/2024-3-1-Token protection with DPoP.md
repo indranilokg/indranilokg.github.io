@@ -2,11 +2,9 @@
 layout: post
 title: Secure your tokens - an introduction to DPoP
 ---
-
 <blockquote>
 The chain is only as strong as its weakest link
 </blockquote>
-
 With the evolution of cloud based technologies and deployment patterns, authorization tokens from an application are increasingly becoming a target for the bad actors. Consequently token protection is taking shape of an intense battleground between security enforcer and bad actors. 
 
 ### Tokens - what are they?
