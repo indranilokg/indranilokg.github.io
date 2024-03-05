@@ -64,7 +64,7 @@ This brings the question whether **sender-constraining** a token can be addresse
 
 **Demonstrating Proof-of-Possession (DPoP)** offers exactly that option. It enables the client to demonstrate that it possesses a particular key or secret associated with the access token, without depending on underlying networking infrastructure as leveraged in mTLS binding.
 
-With DPoP, the goal is to bind an OAuth 2.0 token with client’s [private key] (https://www.okta.com/identity-101/public-key-encryption/). In effect, it allows applications cryptographically bind access tokens to a particular client when they are issued.
+With DPoP, the goal is to bind an OAuth 2.0 token with client’s [private key](https://www.okta.com/identity-101/public-key-encryption/). In effect, it allows applications cryptographically bind access tokens to a particular client when they are issued.
 
 Authorization server would embed the corresponding client certificate (public key) in the issued token. Any API/Resource server would validate those tokens to make sure it came from the same client it was issued for.
 
@@ -100,7 +100,7 @@ At a high level -
 DPoP is a secure alternative to bearer tokens. It increases application/API security posture by preventing token stealing and replay attacks, where an attacker intercepts a legitimate access token and uses it to gain unauthorized access to a protected resource.
 
 
-This is an important requirement for all Federal customers since as they need to comply with [NIST 800-63C] (https://pages.nist.gov/800-63-3/sp800-63c.html) which mandates the use of hold-of-key like standards for token protection.
+This is an important requirement for all Federal customers since as they need to comply with [NIST 800-63C](https://pages.nist.gov/800-63-3/sp800-63c.html) which mandates the use of hold-of-key like standards for token protection.
 
 DPoP is included in [FAPI 2.0 security profile](https://openid.net/specs/fapi-2_0-security-02.html) which is part of [Financial Grade API (FAPI) 2.0](https://oauth.net/fapi/) adopted by [Open Banking](https://www.okta.com/resources/open-banking-psd2-global-adoption/) initiative. FAPI aims to protect high-value important API's such as in financial institutions applications.
 
@@ -124,7 +124,7 @@ While adopting DPoP can significantly improve the security posture of an applica
 
 DPoP proves the identity of the sender using the token, but an application is still prone to other token related attacks, such as [Cross-Site Scripting (XSS) attack](https://owasp.org/www-community/attacks/xss/). If the client is compromised by XSS attack, DPoP can offer little protection from it. In this case, the attacker can obtain the private key from the compromised client, or can get the client generate DPoP signature for use. In either case the attacker can prove possession of a token and hence use it to successfully call protected API's.
 
-DPoP can be a very important tool in securing an application. It augments other established and emerging security practices such as [XSS prevention] (https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html), that need to be employed in fortifying an application.	
+DPoP can be a very important tool in securing an application. It augments other established and emerging security practices such as [XSS prevention](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html), that need to be employed in fortifying an application.	
 
 
 ### Summary
