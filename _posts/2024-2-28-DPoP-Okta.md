@@ -14,7 +14,7 @@ The goal of DPoP is to cryptographically bind an access token to a particular cl
 
 DPoP works at the [application layer](https://www.okta.com/identity-101/osi-layers/) and has the following basic flow -
 
-![DPoP WIC](../images/2024-2-28-Dpopflow.png)
+![DPoP WIC](../images/2024-2-28-dpopflow.png)
 
 At a high level -
 
