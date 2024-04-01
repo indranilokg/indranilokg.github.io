@@ -148,7 +148,7 @@ Beyond the banking industry, CIBA is proving to be promising in providing enhanc
 
 ## CIBA with Okta
 
-[Okta Workforce Identity Cloud](https://www.okta.com/workforce-identity/) supports CIBA with `pull` mode. The feature is called [Transactional Verification](https://developer.okta.com/docs/guides/configure-ciba/main/). As part of the support, the [Okta authorization server](https://developer.okta.com/docs/concepts/auth-servers/) includes the CIBA grant. 
+[Okta Workforce Identity Cloud](https://www.okta.com/workforce-identity/) supports CIBA with `poll` mode. The feature is called [Transactional Verification](https://developer.okta.com/docs/guides/configure-ciba/main/). As part of the support, the [Okta authorization server](https://developer.okta.com/docs/concepts/auth-servers/) includes the CIBA grant. 
 
 The authentication process is supported by allowing the creation of a **mobile push authenticator** using [Okta device SDK](https://www.okta.com/blog/2020/10/showcase20-introducing-the-okta-devices-sdk-and-api-a-better-way-to-secure-and-delight-mobile-users/). This SDK can be easily embedded in the organization's mobile application or as a separate companion application. Check out the [ios](https://developer.okta.com/docs/guides/authenticators-custom-authenticator/ios/main/) and [android](https://developer.okta.com/docs/guides/authenticators-custom-authenticator/android/main/) guides on how to implement a branded push authenticator using the SDK. The guides include sample applications to get you quickly started on building the experience. 
    
