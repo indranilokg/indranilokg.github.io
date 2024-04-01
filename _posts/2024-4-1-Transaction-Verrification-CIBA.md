@@ -89,7 +89,7 @@ Here is a simplified flow of a transaction using CIBA -
 
 ### Through the Looking-glass
 
-* CIBA is an extension on top of [OIDC](https://openid.net/developers/how-connect-works/), which itself is based on the [OAuth2](https://oauth.net/2/) framework. It brings in a new OAuth2 grant type in the family -`urn:openid:params:grant-type:ciba`
+* CIBA is an extension on top of [OIDC](https://openid.net/developers/how-connect-works/), which itself is based on the [OAuth2](https://oauth.net/2/) framework. It brings in a new OAuth2 grant type in the family- `urn:openid:params:grant-type:ciba`
 
 * As customary with the [OIDC discovery endpoint](https://openid.net/specs/openid-connect-discovery-1_0.html), CIBA introduces additional metadata parameters, such as - `backchannel_token_delivery_modes_supported`, `backchannel_authentication_endpoint`
 
