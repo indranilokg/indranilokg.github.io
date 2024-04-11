@@ -1,7 +1,5 @@
 # Is your application still capturing user credentials
 
-![Authentication](../images/2024-4-11-federation.png)
-
 Are you developing new applications or planning to modernize the existing applications in your organization? Ensure you have done your due diligence on how the application captures the authenticating user **credentials**. This is a subtle and often overlooked aspect of application authentication. With the rise of credential theft attacks, failing to plan for adequate guardrails around the application's access to user credentials, can make your organization vulnerable to breaches.
 
 ## A brief history of authentication
@@ -47,6 +45,8 @@ If it were a few applications accessed through the company firewall, the traditi
 
 
 ## Call to action
+
+![Authentication](../images/2024-4-11-federation.png)
 
 While deciding on the authentication approach for your applications, consider federating with a trusted IDP such as Okta CIC and WIC. That way you can seamlessly take care of protecting the user identities regardless of the number of applications you have.
 
