@@ -1,4 +1,7 @@
-# Is your application still capturing user credentials
+---
+layout: post
+title: Is your application still capturing user credentials
+---
 
 Are you developing new applications or planning to modernize the existing applications in your organization? Ensure you have done your due diligence on how the application captures the authenticating user **credentials**. This is a subtle and often overlooked aspect of application authentication. With the rise of credential theft attacks, failing to plan for adequate guardrails around the application's access to user credentials, can make your organization vulnerable to breaches.
 
