@@ -26,11 +26,11 @@ At a high level -
 
 * The authorization server validates the **DPoP proof** using the supplied *public key* inside the **DPoP proof** *JWT*.
 
-* While generating the *access token*, the authorization server embeds the *public key* inside the token itself, and finally issues the token to the client.
+* While generating the *access token*, the authorization server embeds the *public key* inside the token itself and finally issues the token to the client.
 
 * When the client calls a resource (**API**) using the token, it passes both the **DPoP proof** and the *access token* to the resource server.
 
-* The resource server validates the **DPoP proof** by using the embedded *public key* inside the *access token*. That way the resource server confirms that the sender of the **DPoP proof** and the owner of the *access token* is the same client. The resource server finally grants access to the intended resource.
+* The resource server validates the **DPoP proof** by using the embedded *public key* inside the *access token*. That way the resource server confirms that the sender of the **DPoP proof** and the owner of the *access token* are the same client. The resource server finally grants access to the intended resource.
 
 
 ### DPoP with WIC
