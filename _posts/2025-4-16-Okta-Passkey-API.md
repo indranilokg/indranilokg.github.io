@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Implementing Passkey Authentication with Okta - A Technical Guide
+title: Implementing Passkey Authentication with Okta API - A Technical Guide
 ---
 
 This guide demonstrates how to implement passkey authentication with Okta using a hybrid approach that combines direct API calls for enrollment with the [Okta Auth JS SDK](https://github.com/okta/okta-auth-js) for authentication. Passkeys are [WebAuthn](https://www.w3.org/TR/webauthn/) credentials that provide a more user-friendly authentication experience, built on the WebAuthn standard. They leverage the same underlying technology with additional features such as cross-device synchronization and a more intuitive user experience.
