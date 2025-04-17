@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Implementing Passkey Authentication with Okta: A Technical Guide
+title: Implementing Passkey Authentication with Okta - A Technical Guide
 ---
 
 
@@ -289,3 +289,4 @@ When choosing between these approaches, consider your application's specific req
 
 
 
+	
